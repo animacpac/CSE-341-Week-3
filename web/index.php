@@ -21,7 +21,7 @@ session_start();
                             <h5 class="card-title">Purse</h5>
                             <p class="card-text">Price: $20.00</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item-Name" value="Bag 1">
+                            <input type="hidden" name="Item_Name" value="Purse 1">
                             <input type="hidden" name="Price" value="20.00">
                         </div>
                     </div>
@@ -35,7 +35,7 @@ session_start();
                             <h5 class="card-title">Purse 2</h5>
                             <p class="card-text">Price: $15.00</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item-Name" value="Bag 2">
+                            <input type="hidden" name="Item_Name" value="Purse2">
                             <input type="hidden" name="Price" value="15.00">
                         </div>
                     </div>
@@ -49,7 +49,7 @@ session_start();
                             <h5 class="card-title">Purse 3</h5>
                             <p class="card-text">Price: $30.00</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item-Name" value="Bag 3">
+                            <input type="hidden" name="Item_Name" value="Purse3">
                             <input type="hidden" name="Price" value="30.00">
                         </div>
                     </div>
@@ -63,7 +63,7 @@ session_start();
                             <h5 class="card-title">Purse 4</h5>
                             <p class="card-text">Price: $40.00</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item-Name" value="Bag 4">
+                            <input type="hidden" name="Item_Name" value="Purse4">
                             <input type="hidden" name="Price" value="40.00">
                         </div>
                     </div>

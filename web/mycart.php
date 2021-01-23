@@ -12,19 +12,10 @@
             <div class="col-lg-12 text-center border rounded bg-light my-5">
                 <h1>My Cart</h1>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-9">
                 <table class="table">
                     <thead class="text-center">
-
-
-                        <tr>
-                            <th scope="col">Serial No.</th>
-                            <th scope="col">Item Name</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Quantity</th>
-                            <th scope="col">Quantity</th>
-                        </tr>
-                    </thead>
+                    </thead>  
                     <tbody class="text-center">           
                         <?php
                         $total=0;

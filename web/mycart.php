@@ -59,19 +59,8 @@ session_start();
                     <h5>$<?php echo $total ?></h5>
                     <br />
                     <form>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                Default radio
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Default checked radio
-                            </label>
-                        </div>
-                        <button class="btn btn-primary btn-block">Submit</button>
+                        
+                        <button class="btn btn-primary btn-block">Submit Purchase</button>
                     </form>
                 </div>
             </div>

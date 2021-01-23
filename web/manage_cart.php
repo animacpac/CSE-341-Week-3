@@ -17,8 +17,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
                     </script>";
             }
             else
-            {
-                       
+            {  
 
             $count=count($_SESSION['cart']);
             $_SESSION['cart'][$count]=array('Item_Name'=>$_POST['Item_Name'],'Price'=>$_POST['Price'],'Quantity'=>1);

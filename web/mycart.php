@@ -1,4 +1,6 @@
-<?php include("header.php"); ?>
+<?php include("header.php"); 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +17,15 @@
             <div class="col-lg-9">
                 <table class="table">
                     <thead class="text-center">
-                    </thead>  
-                    <tbody class="text-center">           
-                        <?php
+                        <tr>
+                            <th scope="col">Serial number</th>
+                            <th scope="col">Item Name</th>
+                            <th scope="col">Item Price</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">                        <?php
                         $total=0;
                         if(isset($_SESSION['cart']))
                         {
@@ -27,16 +35,15 @@
                         $total=$total+$value['Price'];
                         echo"
                         <tr>
-                        <td>$sr</td>
-                        <td>$value[Item_Name]</td>
-                        <td>$value[Price]</td>
-                        <td><input class='text-center' type='number' value='$value[Quantity]' min='1' max='10'></td>
-                       
-                        <td>
-                            <form action='manage_cart.php' method='POST'>
-                                <button name='Remove_Item' class='btn btn-sm btn-outline-danger'>REMOVE</button></td>
-                                <input type='hidden' name='Item_Name' value='$value[Item_Name]'>
-                            </form>
+                            <td>$sr</td>
+                            <td>$value[Item_Name]</td>
+                            <td>$value[Price]</td>
+                            <td><input class='text-center' type='number' value='$value[Quantity]' min='1' max='10'></td>
+                            <td>
+                        <form action='manage_cart.php' method='POST'>
+                        <button name='Remove_Item' class='btn btn-sm btn-outline-danger'>REMOVE</button></td>
+                        <input type='hidden' name='Item_Name' value='$value[Item_Name]'>
+                        </form>
                         </tr>
                         ";
                         }
@@ -68,7 +75,7 @@
                     </form>
                 </div>
             </div>
-     </div>
+        </div>
     </div>
 </body>
 </html>

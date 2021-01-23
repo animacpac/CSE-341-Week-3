@@ -14,7 +14,7 @@
             <div class="col-lg-3">
                 <form action="manage_cart.php" method="POST">
                     <div class="card">
-                        <img src="images/purse.jpg" class="card-img-top">
+                        <img src="purse.jpg" class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title">Purse</h5>
                             <p class="card-text">Price: $20.00</p>
@@ -23,12 +23,12 @@
                             <input type="hidden" name="Price" value="20.00">
                         </div>
                     </div>
-                  </form>
+                </form>
             </div>
             <div class="col-lg-3">
                 <form action="manage_cart.php" method="POST">
                     <div class="card">
-                        <img src="images/purse2.jpg" class="card-img-top">
+                        <img src="purse2.jpg" class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title">Purse 2</h5>
                             <p class="card-text">Price: $15.00</p>
@@ -37,12 +37,12 @@
                             <input type="hidden" name="Price" value="15.00">
                         </div>
                     </div>
-                  </form>
+                </form>
             </div>
             <div class="col-lg-3">
                 <form action="manage_cart.php" method="POST">
                     <div class="card">
-                        <img src="images/purse3.jpg" class="card-img-top">
+                        <img src="purse3.jpg" class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title">Purse 3</h5>
                             <p class="card-text">Price: $30.00</p>
@@ -51,12 +51,12 @@
                             <input type="hidden" name="Price" value="30.00">
                         </div>
                     </div>
-                  </form>
+                </form>
             </div>
             <div class="col-lg-3">
                 <form action="manage_cart.php" method="POST">
                     <div class="card">
-                        <img src="images/purse4.jpg" class="card-img-top" alt="...">
+                        <img src="purse4.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Purse 4</h5>
                             <p class="card-text">Price: $40.00</p>
@@ -65,7 +65,7 @@
                             <input type="hidden" name="Price" value="40.00">
                         </div>
                     </div>
-                  </form>
+                </form>
             </div>
         </div>
     </div>

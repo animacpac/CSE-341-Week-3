@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +30,7 @@
                         $count=count($_SESSION['cart']);
                       }
                     ?>
-                    <a href="mycart.php" class="btn btn-outline-success">My Cart <?php echo $count; ?></a>
+                    <a href="mycart.php" class="btn btn-outline-success">My Cart (<?php echo $count; ?>)</a>
                 </div>
             </div>
         </div>

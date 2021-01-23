@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
                        
 
             $count=count($_SESSION['cart']);
-            $_SESSION['cart'][$sount]=array('Item_Name'=>$_POST['Item_Name'],'Price'=>$_POST['Price'],'Quantity'=>1);
+            $_SESSION['cart'][$count]=array('Item_Name'=>$_POST['Item_Name'],'Price'=>$_POST['Price'],'Quantity'=>1);
                echo"<script>
                     alert('Item Added');
                     window.location.href='index.php';

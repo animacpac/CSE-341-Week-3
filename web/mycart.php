@@ -28,9 +28,7 @@ session_start();
                     <tbody class="text-center">  
                     <body>
 
-                       <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-                        Name: <input type="text" name="fname">
-                       </form>
+                      
 
                       <?php
                         $total=0;
@@ -66,9 +64,9 @@ session_start();
                     <h3>Total:</h3>
                     <h5>$<?php echo $total ?></h5>
                     <br />
-                    <form>
-                        
-                        <button class="btn btn-primary btn-block">Submit Purchase</button>
+                    <form action="address.php" method="POST">
+                        Email: <input type="text" name="Email">
+                        <button name='Email' class="btn btn-primary btn-block">Submit Purchase</button>
                     </form>
                 </div>
             </div>
